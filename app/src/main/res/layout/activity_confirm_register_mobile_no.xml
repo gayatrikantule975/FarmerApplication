@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ConfirmRegisterMobileNoActivity"
+android:orientation="vertical"
+android:gravity="center">
+<ImageView
+    android:layout_width="180sp"
+    android:layout_height="180sp"
+    android:id="@+id/ivConfirmMobileImage"
+    android:src="@drawable/confirmmobileno"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50sp"
+    android:id="@+id/etConfirmRegisterNoMobileNo"
+    android:hint="Enter Registered Mobile Number"
+    android:inputType="number"
+    android:layout_margin="16sp"
+    android:paddingLeft="8sp"
+    android:maxLength="10"
+    android:drawablePadding="5sp"
+    android:textColor="@color/black"
+    android:textColorHint="@color/black"
+    android:textSize="18sp"
+    android:background="@drawable/edittextbackground"
+    android:drawableLeft="@drawable/mobiledrawableleft"
+    />
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="match_parent"
+    android:layout_height="50sp"
+    android:id="@+id/btnConfirRegistermMobileNo"
+    android:text="@string/verify"
+    android:textColor="@color/white"
+    android:textSize="18sp"
+    android:layout_margin="30sp"
+    android:background="@drawable/buttonbackground"
+    />
+</LinearLayout>

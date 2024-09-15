@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    >
+<RelativeLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/faintskyblue"
+    >
+<ImageView
+    android:layout_width="150sp"
+    android:layout_height="150sp"
+    android:id="@+id/ivRegistrationLogo"
+    android:src="@drawable/logooflogin"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="16sp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvRegistationText"
+        android:text="Register Here"
+        android:layout_below="@+id/ivRegistrationLogo"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/skyblue"
+        android:fontFamily="@font/alata"
+        android:textAlignment="center"
+        android:layout_margin="5sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/tvRegistationText"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:id="@+id/etRegistrationName"
+            android:hint="Enter Your Name"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:paddingLeft="8sp"
+            android:drawableLeft="@drawable/namedrawableleft"
+            android:drawablePadding="5sp"
+            android:background="@drawable/edittextbackground"
+            android:layout_margin="16sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:id="@+id/etRegistrationMobileNo"
+            android:hint="Enter Your Mobile no."
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:inputType="number"
+            android:paddingLeft="8sp"
+            android:drawableLeft="@drawable/mobiledrawableleft"
+            android:drawablePadding="5sp"
+            android:background="@drawable/edittextbackground"
+            android:layout_margin="16sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:id="@+id/etRegistrationEmailId"
+            android:hint="Enter Your EmailId"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:paddingLeft="8sp"
+            android:drawableLeft="@drawable/emailiddrwableleft"
+            android:drawablePadding="5sp"
+            android:background="@drawable/edittextbackground"
+            android:layout_margin="16sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:id="@+id/etRegistrationUserName"
+            android:hint="Enter Your UserName"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:paddingLeft="8sp"
+            android:drawableLeft="@drawable/usernamedrawableleft"
+            android:drawablePadding="5sp"
+            android:background="@drawable/edittextbackground"
+            android:layout_margin="16sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:id="@+id/etRegistrationPassword"
+            android:hint="Enter Your Password"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            android:paddingLeft="8sp"
+            android:drawableLeft="@drawable/passworddrawableleft"
+            android:drawablePadding="5sp"
+            android:background="@drawable/edittextbackground"
+            android:layout_margin="16sp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:id="@+id/btnRegistration"
+            android:text="Register"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonbackground"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="30sp"
+            />
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
